@@ -100,7 +100,6 @@ tzdata==2024.1
 uritemplate==4.1.1
 urllib3==2.2.1
 wcwidth==0.2.13
-webrtcvad==2.0.10
 whitenoise==6.6.0
 zipp==3.18.1
 zope.interface==6.3
