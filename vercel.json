@@ -2,12 +2,12 @@
   "version": 2,
   "builds": [
     {
-      "src": "/ipx/wsgi.py",
+      "src": "ipx/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
-      "src": "/ipx/wsgi.py",
+      "src": "ipx/wsgi.py",
       "use": "@vercel/static-build",
       "config": { "distDir": "staticfiles" }
     }
