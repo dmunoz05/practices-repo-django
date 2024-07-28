@@ -2,12 +2,9 @@
   "version": 2,
   "builds": [
     {
-      "src": "ipx/wsgi.py",
+      "src": "/build_files.sh",
       "use": "@ardnt/vercel-python-wsgi",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "ipx/wsgi.py" }
   ]
 }
