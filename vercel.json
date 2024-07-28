@@ -5,6 +5,10 @@
       "src": "/build_files.sh",
       "use": "@ardnt/vercel-python-wsgi",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+    },
+    {
+      "src": "ipx/wsgi.py",
+      "use": "@vercel/static-build"
     }
   ]
 }
