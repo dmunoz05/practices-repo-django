@@ -19,6 +19,5 @@
       "src": "/(.*)",
       "dest": "ipx/wsgi.py"
     }
-  ],
-  "output"
+  ]
 }
