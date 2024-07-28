@@ -5,10 +5,12 @@
       "src": "/build_files.sh",
       "use": "@ardnt/vercel-python-wsgi",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
-    },
+    }
+  ],
+  "routes": [
     {
-      "src": "/build_files.sh",
-      "use": "@vercel/static-build"
+      "src": "/(.*)",
+      "dest": "ipx/wsgi.py"
     }
   ]
 }
